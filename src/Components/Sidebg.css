@@ -1,0 +1,14 @@
+/* .side_bg {
+    width: 100%;
+    height: 100vh;
+} */
+
+.side_bg  {
+    height: 100%;
+    width: 100%;
+    background-image: url('../Project.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    background-position: 00px -130px;
+    
+}

@@ -1,0 +1,93 @@
+.form_wrapper {
+    width: 60%;
+    margin: 0px auto;
+
+}
+.txt {
+    text-align: center;
+}
+.txt h1 {
+    padding: 10px;
+    font-weight: 500;
+   
+}
+.txt p {
+    font-weight: 300;
+    color: #636364;
+}
+.form {
+    width: 100%;
+}
+.form .form-group {
+    margin-top: 15px;
+}
+
+.input_style {
+    display: block;
+    width: 100%;
+    padding: 10px 5px;
+    color: #212529;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    transition: 0.15s;
+    box-sizing: border-box;
+    margin-top: 5px;
+    box-shadow: 1px 1px 7px #00000014;
+
+}
+
+.input_style:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+.button_style {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 10px 5px;
+    border-radius: 10px;
+    transition: 0.15s;
+    font-size: 14px;
+}
+
+.button-color {
+    color: #fff;
+    background-color: #EA454C;
+    border-color: #f83943;
+    box-shadow: -1px 2px 4px 1px #f8394365;
+}
+
+.button-color:hover {
+    color: #fff;
+    background-color: #932a30;
+    border-color: #8b1d22;
+}
+.border-dark {
+    border: 1px solid rgba(0,0,0,.25);
+}
+
+.form-group button img {
+    position: relative;
+    top: 4px;
+}
+
+.form-group p.underlineText {
+    color: #595959;
+    text-align: center;
+    font-size: 10px;
+}
+.form-group p.underlineText span {
+    color: #f83943;
+}
+input[type="checkbox"] {
+    cursor: pointer;
+}
+.errorText{color: red;}

@@ -1,0 +1,28 @@
+
+/* main css  */
+.container {
+    width: 100%;
+    /* max-width: 1440px; */
+    margin: 0 auto;
+}
+.text-decoration-none{
+  text-decoration: none;
+}
+@media(max-width:768px) {
+
+    .d-sm-none {
+        display: none;
+    }
+    .w-50 {
+        width: 100%;
+        min-height: 100vh;
+    }
+    .form_wrapper{width: 80% !important;}
+}
+
+@media(max-width:320px){
+  html{
+    font-size: 70%;
+  }
+
+}
